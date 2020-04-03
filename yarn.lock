@@ -1613,7 +1613,7 @@
   resolved "https://registry.yarnpkg.com/@twilio-paste/flex/-/flex-0.3.12.tgz#a370e95d996d733d4f0036ecfcbf33b18822ece8"
   integrity sha512-R8XL2kB0guGYhdsX4tW+XvA69aIFtOA5BIzi1nlGoRXveKrkpGhsxDt2QGAi46dOH9dsx/ckeuidUoHCBnlVZA==
 
-"@twilio-paste/form@^1.1.3":
+"@twilio-paste/form@1.1.3", "@twilio-paste/form@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@twilio-paste/form/-/form-1.1.3.tgz#01b99236049041f927a3a40dc629a2b3acc3c36d"
   integrity sha512-yfdO5GjPxOrlMRKUB3BXgvMnOgpZRGRf0rFtd8how3giTdtX6u44w6I4aC50zWAvwATgB7NS4w7rkeENTkSGpg==
