@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Card} from "@twilio-paste/card";
+import {Paragraph} from "@twilio-paste/paragraph";
+import {Heading} from "@twilio-paste/heading";
+import {Box} from "@twilio-paste/box";
+import {Button} from "@twilio-paste/button";
+import useRoom from "./useRoom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const connect = useRoom();
+
+    return (
+        <Box padding="space60">
+            <Card padding="space120">
+                <Heading as="h2">This is a card with a primary action</Heading>
+                <Paragraph>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dui tellus, tristique in tincidunt
+                    cursus, efficitur
+                    at felis. Phasellus imperdiet, lorem et commodo egestas, arcu.
+                </Paragraph>
+                <Button variant="submit"> I am a primary action button </Button>
+            </Card>
+        </Box>
+    );
 }
 
 export default App;
